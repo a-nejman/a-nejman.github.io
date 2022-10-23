@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/grid.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Radley|Space+Mono|Work+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Radley|Space+Mono|Work+Sans|Poppins|Space+Grotesk|Sora" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800" />
   <link rel="icon" type="image/png" href="img/icons8-chat-24.png">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -18,9 +20,9 @@
         <a class="logo" href="/">Aneta Nejman</a>
         <nav class="nav">
           <ul class="nav-list">
-            <li class="nav-item"><a href="#about">about</a></li>
-            <li class="nav-item"><a href="#work">work</a></li>
-            <li class="nav-item"><a href="#contact">contact</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <!-- <button class="nav-toggle">Menu</button> -->
@@ -34,9 +36,14 @@
   <!-- Section Hero -->
   <section id="hero">
     <div class="hero">
+      <!-- <h1 class="span-gradient">Hi there!</h1>
+      <p  class="hero-p">I'm&nbsp;Aneta, architect by&nbsp;education, now specializing in&nbsp;UX&nbsp;Research and&nbsp;UX&nbsp;Design</p> -->
+      <div class="icon-box">
+        <img src="img/smiley-happy-face-mail-14.svg" class="icon-box" alt="Smiley icon"></img>
+        <span class="span-gradient">Hi there!</span>
+      </div>
       <h1>
-        <span class="span-gradient">Hi there!</span><br>
-        I'm&nbsp;Aneta, architect by&nbsp;education, now specializing in&nbsp;UX&nbsp;Research and&nbsp;Design
+        I'm&nbsp;Aneta, architect by education, now specializing in UX&nbsp;Research and UX&nbsp;Design
       </h1>
     </div>
   </section>
@@ -51,14 +58,42 @@
 
 
     <!-- Section About -->
-    <section class="row" id="about">
+    <section class="row" style="margin-bottom: 3rem;" id="about">
       <div class="col-md-6" style="margin-bottom: 1rem;">
-        <h2>about</h2>
+        <h2>About</h2>
 
         <!-- <p>I'm&nbsp;a&nbsp;kind person, driven by&nbsp;curiosity to&nbsp;understand other people and&nbsp;how things around work. I&nbsp;love to&nbsp;learn, share the&nbsp;skills and&nbsp;experiences. My&nbsp;friends describe me as&nbsp;a&nbsp;sponge for knowledge. Creating effective solutions, that people use willingly is&nbsp;what I'm&nbsp;interested&nbsp;in.</p> -->
         <p>I have analytical mind with high level of empathy. I'm good in multidisciplinary work, combining <span class="span-solid">business needs</span> and <span class="span-solid">users needs</span>.</p>
         <p>My&nbsp;friends describe me as&nbsp;a&nbsp;sponge for knowledge. Creating effective solutions, that people use willingly is&nbsp;what I'm&nbsp;interested&nbsp;in.</p>
-        <p>In my work I always find <span class="span-solid">open communication</span>, <span class="span-solid">iteration</span> and <span class="span-solid">feedback</span> very important.</p>
+        <!-- <p>In my work I always find <span class="span-solid">open communication</span>, <span class="span-solid">iteration</span> and <span class="span-solid">feedback</span> very important.</p> -->
+
+        <!-- <p>See more on&nbsp;my&nbsp;<a href="https://www.linkedin.com/in/aneta-nejman" class="link-highlight">Linkedin</a> or&nbsp;in&nbsp;my&nbsp;<a href="https://drive.google.com/drive/folders/1AUee1fPL5_WXD8ehd2G8rUW8emFipjHy" class="link-highlight">Resume</a>.</p>
+        <p>I'm open to&nbsp;collaborations, as&nbsp;well as&nbsp;part&#8209;time and&nbsp;full&#8209;time jobs in&nbsp;the field of&nbsp;UX&nbsp;Research and UX&nbsp;Design.</p> -->
+
+        <!-- <h2>My values</h2>
+        <div class="value-columns">
+          <h3 class="icon-box">
+            <img src="img/brain.png" class="icon-box" alt="Brain icon">
+            Lifelong learning</h3>
+          <p>I keep myself curious, explore different subjects and also try to keep up with current technology and field knowledge.</p>        
+        </div>
+
+        <div class="value-columns">
+          <h3 class="icon-box">
+            <img src="img/system.png" class="icon-box" alt="System icon">
+            Holistic thinking</h3>
+          <p>I always keep in mind that there are interconnected factors, a particular experience is part of a broader ecosystem.</p>
+        </div>
+        
+        <div class="value-columns">
+          <h3 class="icon-box">
+            <img src="img/response.png" class="icon-box" alt="Feedback icon">
+            Feedback & interation</h3>
+          <p>Seeking opportunities to receive and give feedback is crucial for learning and further development. I always try to maintain open communication.</p>
+        </div> -->
+
+        <!-- <h3>Open communication</h3>
+        <p>Bring problems to the forefront</p> -->
 
         <!-- <h2>main skillset</h2>
         <ul class="list">
@@ -70,22 +105,65 @@
           <li>Accessibility adjustments</li>
         </ul> -->
 
-        <p>I'm open to&nbsp;collaborations, as&nbsp;well as&nbsp;part&#8209;time and&nbsp;full&#8209;time jobs in&nbsp;the field of&nbsp;UX&nbsp;Research and UX&nbsp;Design.</p>
-
-        <p>See more on&nbsp;my&nbsp;<a href="https://www.linkedin.com/in/aneta-nejman" class="link-highlight">Linkedin</a> or&nbsp;in&nbsp;my&nbsp;<a href="https://drive.google.com/drive/folders/1AUee1fPL5_WXD8ehd2G8rUW8emFipjHy" class="link-highlight">Resume</a>.</p>
+        <!-- <h2>More info</h2>
+        <p>See more on&nbsp;my&nbsp;<a href="https://www.linkedin.com/in/aneta-nejman" class="link-highlight">Linkedin</a> or&nbsp;in&nbsp;my&nbsp;<a href="https://drive.google.com/drive/folders/1AUee1fPL5_WXD8ehd2G8rUW8emFipjHy" class="link-highlight">Resume</a>.</p> -->
+        <p>I'm open to&nbsp;collaborations, as&nbsp;well as&nbsp;part&#8209;time and full&#8209;time jobs in&nbsp;the field of&nbsp;UX&nbsp;Research and UX&nbsp;Design.</p>
 
       </div>
+
       <div class="col-md-5 offset-md-1 author">
         <!-- <img src="img/cv-photo-1900.jpg" alt="Author of the page"> -->
-        <img src="img/photo-mn-3.jpg" alt="Author of the page">
+        <img src="img/photo-mn-3.jpg" class="cropped" alt="Author of the page">
       </div>
+      
+      <!-- <div style="margin-bottom: 1rem;"> -->
+        <!-- <div class="col-md-12" style="margin-bottom: 0rem;">
+          <h2>My values</h2>
+        <div> -->
+          <h2 style="width:100%; padding-left: 15px;">My professional values</h2>
+
+          <!-- <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.2rem;"> -->
+            <div class="col-md-4">
+              <div class="icon-box">
+                <img src="img/brain.png" class="icon-box" alt="Brain icon">
+                <h3>Lifelong learning</h3>
+              </div>
+              <p>I keep myself curious, explore different subjects and also try to keep up with current technology and field knowledge.</p>        
+            </div>
+            
+            <div class="col-md-4">
+              <div class="icon-box">
+                <img src="img/response.png" class="icon-box" alt="Feedback icon">
+                <h3>Feedback &&nbsp;interation</h3>
+              </div>
+              <p>Seeking opportunities to receive and give feedback is crucial for learning and further development. I&nbsp;always try to maintain open communication.</p>
+            </div>
+    
+            <div class="col-md-4">
+              <div class="icon-box">
+                <img src="img/system.png" class="icon-box" alt="System icon">
+                <h3>Holistic thinking</h3>
+              </div>
+              <p>I always keep in mind that there are interconnected factors, a particular experience is part of a broader ecosystem.</p>
+            </div>
+          <!-- </div> -->
+
+        <!-- </div>
+      </div> -->
+
+      <div class="col-md-12" style="margin-bottom: 1rem;">
+        <!-- <h2>More info</h2> -->
+        <p>See more on&nbsp;my&nbsp;<a href="https://www.linkedin.com/in/aneta-nejman" class="link-highlight">Linkedin</a> or&nbsp;in&nbsp;my&nbsp;<a href="https://drive.google.com/drive/folders/1AUee1fPL5_WXD8ehd2G8rUW8emFipjHy" class="link-highlight">Resume</a>.</p>
+        <!-- <p>I'm open to&nbsp;collaborations, as&nbsp;well as&nbsp;part&#8209;time and&nbsp;full&#8209;time jobs in&nbsp;the field of&nbsp;UX&nbsp;Research and UX&nbsp;Design.</p> -->
+      </div>
+
     </section>
     <!-- // Section About -->
 
-    <!-- Section Work -->
-    <section class="row" id="work">
+    <!-- Section projects -->
+    <section class="row" id="projects">
       <div class="col-md-12">
-        <h2>work</h2>
+        <h2>Projects</h2>
       </div>
 
 
@@ -119,7 +197,7 @@
                 <p class="card-excerpt">UX research conducted for&nbsp;a&nbsp;new online tool in the area of psychology and&nbsp;modern education.
                 </p>
                 <div>
-                  <ul class="card-tags">
+                  <ul class="card-tags caption">
                     <li>#Screener</li>
                     <li>#Research scenario</li>
                     <li>#IDIs</li>
@@ -154,7 +232,7 @@
                 </h3>
                 <p class="card-excerpt">Nutritional app for parents of preschool children - student project created during postgraduate studies at SWPS&nbsp;University.</p>
                 <div>
-                  <ul class="card-tags">
+                  <ul class="card-tags caption">
                     <li>#UX Research</li>
                     <li>#Prototyping</li>
                     <li>#Usability testing</li>
@@ -208,32 +286,49 @@
       <!-- // card-03 -->
       
     </section>
-    <!-- // Section Work -->
+    <!-- // Section projects -->
     
   </div>
 </main>
 
-  <footer>
+  <!-- <footer> -->
     <!-- Section Contact -->
-    <section class="row contact" id="contact">
+    <!-- <section class="row contact" id="contact">
       <div class="col-md-12">
         <h2 class="contact-heading">Let's stay in&nbsp;touch</h2>
         <p>Write me on aneta.nejman+ux@gmail.com<br>or catch me on <a href="https://www.linkedin.com/in/aneta-nejman">Linkedin</a></p>
       </div>
-    </section>
+    </section> -->
     <!-- // Section Contact -->
 
-    <div>
+    <!-- <div> -->
       <!-- <div>
         <ul>
           <li><a href="https://www.linkedin.com/in/aneta-nejman">linkedin<i class="ion ion-logo-linkedin"></i></a></li>
         </ul>
       </div> -->
-      <div>
+      <!-- <div>
         <p style="font-size: calc(var(--p) * 0.1);">©Aneta Nejman, 2022</p>
       </div>
     </div>
+  </footer> -->
+  <!-- Footer old -->
+
+
+
+  <!-- Section Contact -->
+  <footer class="contact">
+    <section class="row contact" id="contact">
+      <div class="col-md-12">
+        <h2 class="contact-heading">Let's stay in&nbsp;touch</h2>
+        <p class="contact-p">Write me on aneta.nejman+ux@gmail.com<br>or catch me on <a href="https://www.linkedin.com/in/aneta-nejman">Linkedin</a></p>
+        <div>
+          <p class="caption" style="color: var(--background);">© 2022 Aneta Nejman</p>
+        </div>
+      </div>
+    </section>
   </footer>
+  <!-- // Section Contact -->
 
 </body>
 

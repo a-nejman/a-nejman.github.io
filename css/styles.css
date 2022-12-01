@@ -812,7 +812,6 @@ h1.project {
   backdrop-filter: blur(15px);
   background: hsla(0,0%,100%,.6);
   background: hsl(0deg 0% 90% / 53%);
-  pointer-events: none;
   opacity: 50;
   transition: opacity .5s;
   display: flex;

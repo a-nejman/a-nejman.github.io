@@ -556,6 +556,7 @@ img.icon-box {
 
     .card-tags {
       font-size: var(--caption);
+      font-weight: 400;
       display: flex;
       list-style: none;
       gap: 1rem;

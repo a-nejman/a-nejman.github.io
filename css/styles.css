@@ -223,6 +223,7 @@ header span {
 
 .span-large {
   font-size: var(--h2);
+  font-size: calc(var(--h2) * 90%);
   line-height: var(--lh2);
   font-weight: 350;
 }
